@@ -1,0 +1,56 @@
+body{
+	background:pink;
+}
+
+.maindiv{
+	margin-top:100px;
+	margin-left: 170px;
+	margin-right: 200px;
+
+	width: 75%;
+	border:5px solid green;
+
+	text-align: center;
+}
+
+h1{
+	font-size: 80px;
+}
+
+label{
+	font-size: 30px;
+}
+button{
+	height: 50px;
+	width:  150px;
+	color: white;
+	font-size: 30px;
+	background-color: red;
+	border-radius: 50%;
+	outline: none;
+	border:1px solid green;
+	margin-bottom: 10px;
+
+}
+input{
+	height: 40px;
+	margin-bottom: 15px;
+	width: 200px;
+}
+
+#resultdiv{
+	font-size:80px;
+	text-align: center;
+	animation-name: sample;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes sample{
+
+	 0%   {background-color:red;color: yellow; }
+  25%  {background-color:yellow;color: blue;}
+  50%  {background-color:blue; color: white;}
+  75%  {background-color:green; color: tomato;}
+  100% {background-color:brown;color: purple; }
+}
